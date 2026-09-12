@@ -63,13 +63,55 @@ export default function Home() {
 
         <section id="contact" aria-labelledby="contact-heading" className="scroll-mt-8 border-t border-neutral-800 px-6 py-16 lg:px-10">
           <div className="mx-auto max-w-7xl">
-            <h2 id="contact-heading" className="text-3xl font-semibold tracking-tight">Connect with me</h2>
-            <p className="mt-5 max-w-2xl leading-7 text-neutral-300">Find my public profile and project repositories on GitHub.</p>
-            {/* Add your verified LinkedIn or email link here when ready. */}
-            <a href="https://github.com/archana-84" target="_blank" rel="noopener noreferrer" className="mt-6 inline-flex rounded-full border border-neutral-700 px-6 py-3 text-sm hover:border-emerald-300 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-300">
-              GitHub profile <span aria-hidden="true" className="ml-2">↗</span><span className="sr-only"> (opens in a new tab)</span>
-            </a>
+            <h2
+              id="contact-heading"
+              className="text-3xl font-semibold tracking-tight"
+            >
+              Let’s connect
+            </h2>
+
+            <p className="mt-5 max-w-2xl leading-7 text-neutral-300">
+              Interested in discussing a Data Analyst opportunity or my projects?
+              Connect with me on LinkedIn or send me an email.
+            </p>
+
+            <div className="mt-8 flex flex-wrap gap-4">
+              <a
+                href="mailto:archana.bhusara84@gmail.com"
+                className="inline-flex items-center rounded-full bg-emerald-300 px-6 py-3 text-sm font-semibold text-neutral-950 transition hover:bg-emerald-200 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-300"
+              >
+                Email me
+                <span aria-hidden="true" className="ml-2">↗</span>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/archana-bhusara"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center rounded-full border border-neutral-700 px-6 py-3 text-sm transition hover:border-emerald-300 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-300"
+              >
+                LinkedIn
+                <span aria-hidden="true" className="ml-2">↗</span>
+                <span className="sr-only"> (opens in a new tab)</span>
+              </a>
+
+              <a
+                href="https://github.com/archana-84"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center rounded-full border border-neutral-700 px-6 py-3 text-sm transition hover:border-emerald-300 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-300"
+              >
+                GitHub
+                <span aria-hidden="true" className="ml-2">↗</span>
+                <span className="sr-only"> (opens in a new tab)</span>
+              </a>
+            </div>
+
+            <p className="mt-6 break-words text-sm text-neutral-400">
+              archana.bhusara84@gmail.com
+            </p>
           </div>
+
         </section>
       </main>
       <Footer />
