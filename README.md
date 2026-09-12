@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Archana Bhusara | Data Analytics Portfolio
 
-## Getting Started
+My personal portfolio showcasing data analytics projects, analytical methods, and interactive dashboards.
 
-First, run the development server:
+I am based in Buffalo, New York, and hold a Master of Science in Engineering Science (Data Science) from the University at Buffalo.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Portfolio Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Homepage with an introduction and featured project
+- Individual project pages with detailed explanations
+- About, Skills, and Contact sections
+- Links to live dashboards and project repositories
+- Responsive layout for desktop and mobile screens
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Featured Project: Construction Cost Intelligence
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+An analytics project that explores construction cost overruns and flags unusual cost patterns using synthetic data.
 
-## Learn More
+The project demonstrates:
 
-To learn more about Next.js, take a look at the following resources:
+- Data preparation using Python and pandas
+- Analysis using SQL and SQLite
+- Interactive visualization using Streamlit and Plotly
+- Anomaly detection using Isolation Forest
+- Cost variance analysis by project, category, and subcategory
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The portfolio case study includes dataset metrics, a dashboard preview, analytical explanations, and limitations.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Data note:** The construction dataset is synthetic. Reported figures demonstrate analytical methods and do not represent employer results or realized savings.
 
-## Deploy on Vercel
+- [Open the live dashboard](https://construction-cost-intelligence.streamlit.app/)
+- [Explore the project code](https://github.com/archana-84/construction-cost-intelligence)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Portfolio Technology
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js — application framework and page routing
+- React — reusable interface components
+- TypeScript — typed application code
+- Tailwind CSS — styling and responsive layouts
+
+The portfolio website is separate from the Python and Streamlit analytics application linked above.
+
+## Project Organization
+
+| Path | Purpose |
+| --- | --- |
+| `app/page.tsx` | Portfolio homepage |
+| `app/projects/construction-cost-intelligence/page.tsx` | Construction project case study |
+| `app/layout.tsx` | Root application layout |
+| `app/globals.css` | Global styles |
+| `components/Navbar.tsx` | Shared navigation |
+| `components/Footer.tsx` | Shared footer |
+| `components/ProjectCard.tsx` | Reusable project card |
+| `public/construction-dashboard.png` | Dashboard preview image |
+
+
+
+## Connect
+
+[GitHub — archana-84](https://github.com/archana-84)
