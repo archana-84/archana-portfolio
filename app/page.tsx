@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ProjectCard from "../components/ProjectCard";
 import constructionDashboard from "../public/construction-dashboard.png";
+import disappearingBasketDashboard from "../public/disappearing-basket-dashboard.png";
 
 export const metadata: Metadata = {
   title: "Archana Bhusara | Data Analytics Portfolio",
@@ -36,6 +37,14 @@ export default function Home() {
               image={constructionDashboard}
               imageAlt="Preview of the construction dashboard's cost variance bar chart."
               technologies={["Python", "Pandas", "SQL", "Streamlit", "Plotly"]}
+            />
+            <ProjectCard
+              title="The Disappearing Basket"
+              description="Retail spending decline analysis: identifying households that spend substantially less while continuing to shop, using historical transaction data."
+              href="/projects/the-disappearing-basket"
+              image={disappearingBasketDashboard}
+              imageAlt="The Disappearing Basket dashboard showing household spending declines and historical evaluation results."
+              technologies={["SQL", "SQLite", "Excel", "Tableau"]}
             />
           </div>
         </section>

@@ -15,7 +15,7 @@ export default function ProjectCard({ title, description, href, image, imageAlt,
     <article className="mt-10">
       <Link href={href} className="group grid overflow-hidden rounded-3xl border border-neutral-800 bg-[#0e0e0e] transition hover:border-emerald-300/50 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-300 lg:grid-cols-2">
         <div className="flex flex-col items-start p-6 sm:p-10">
-          <p className="text-xs font-medium uppercase tracking-[0.2em] text-emerald-300">Featured project · Synthetic data</p>
+          <p className="text-xs font-medium uppercase tracking-[0.2em] text-emerald-300">Project case study</p>
           <h3 className="mt-6 text-3xl font-semibold tracking-tight sm:text-4xl">{title}</h3>
           <p className="mt-5 leading-7 text-neutral-300">{description}</p>
           <ul aria-label="Project technologies" className="mt-6 flex flex-wrap gap-2">
