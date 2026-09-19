@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import ProjectCard from "../components/ProjectCard";
 import constructionDashboard from "../public/construction-dashboard.png";
 import disappearingBasketDashboard from "../public/disappearing-basket-dashboard.png";
+import watchchordPreview from "../public/watchchord-preview.png";
 
 export const metadata: Metadata = {
   title: "Archana Bhusara | Data Analytics Portfolio",
@@ -46,6 +47,15 @@ export default function Home() {
               imageAlt="The Disappearing Basket dashboard showing household spending declines and historical evaluation results."
               technologies={["SQL", "SQLite", "Excel", "Tableau"]}
             />
+            <ProjectCard
+              title="WatchChord"
+              description="Finding a movie two people can agree on. A genre-based recommendation app with explained matches, watched-movie exclusions, and separate MovieLens and recent TMDB discovery lists."
+              href="/projects/watchchord"
+              image={watchchordPreview}
+              imageAlt="WatchChord showing both viewers' genre preferences and separate movie recommendation lists."
+              technologies={["Python", "SQL", "SQLite", "Streamlit", "TMDB API"]}
+            />
+
           </div>
         </section>
 
@@ -63,7 +73,7 @@ export default function Home() {
           <div className="mx-auto max-w-7xl">
             <h2 id="skills-heading" className="text-3xl font-semibold tracking-tight">Tools used in my projects</h2>
             <ul className="mt-8 flex flex-wrap gap-3">
-              {["Python", "Pandas", "SQL", "SQLite", "ETL", "Streamlit", "Plotly", "scikit-learn"].map((skill) => (
+              {["Python", "Pandas", "SQL", "SQLite", "Excel", "Tableau", "ETL", "Streamlit", "Plotly", "scikit-learn", "TMDB API"].map((skill) => (
                 <li key={skill} className="rounded-full border border-neutral-700 px-4 py-2 text-sm text-neutral-300">{skill}</li>
               ))}
             </ul>
