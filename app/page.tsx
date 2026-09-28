@@ -6,6 +6,8 @@ import ProjectCard from "../components/ProjectCard";
 import constructionDashboard from "../public/construction-dashboard.png";
 import disappearingBasketDashboard from "../public/disappearing-basket-dashboard.png";
 import watchchordPreview from "../public/watchchord-preview.png";
+import beforeTheCallDashboard from "../public/before-the-call-dashboard.png";
+
 
 export const metadata: Metadata = {
   title: "Archana Bhusara | Data Analytics Portfolio",
@@ -54,6 +56,15 @@ export default function Home() {
               image={watchchordPreview}
               imageAlt="WatchChord showing both viewers' genre preferences and separate movie recommendation lists."
               technologies={["Python", "SQL", "SQLite", "Streamlit", "TMDB API"]}
+            />
+            <ProjectCard
+              title="Before the Call"
+              category="Data Science · Predictive Modeling"
+              description="Built a leakage-aware campaign-response model with chronological validation, probability calibration, capacity-based evaluation, SQL analytics, and an interactive Streamlit demonstration."
+              href="/projects/before-the-call"
+              image={beforeTheCallDashboard}
+              imageAlt="Before the Call dashboard showing historical campaign-response results and precision and recall at different contact capacities."
+              technologies={["Python", "scikit-learn", "SQL", "Streamlit"]}
             />
 
           </div>
